@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('Brand');
             $table->string('Price');
             $table->string('Model');
-         
             $table->timestamps();
         });
     }
